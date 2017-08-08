@@ -16,8 +16,8 @@ class AboutStrings < Neo::Koan
     assert_equal "He said, \"Go Away.\"",string
   end
 
-  def test_use_double_quotes_to_create_strings_with_single_quotes
-    string = "Don't"
+	  def test_use_double_quotes_to_create_strings_with_single_quotes
+	    string = "Don't"
     assert_equal 'Don\'t', string
   end
 
@@ -145,7 +145,7 @@ EOS
 
   def test_you_can_get_a_single_character_from_a_string
     string = "Bacon, lettuce and tomato"
-    assert_equal 97, string[1]
+    assert_equal "a", string[1]
 
     # Surprised?
   end
